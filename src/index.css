@@ -31,7 +31,7 @@ body {
   border-radius: 15px 15px 0px 0px;
   display: block;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 120px;
 }
 
 .info {
@@ -148,6 +148,28 @@ body {
   padding: 5px 0px 15px 30px;
   margin: 0;
 }
+
 /* About.js ends here, Footer.js starts here */
+
+.footer {
+  background-color: #161619;
+  width: 400px;
+  margin: auto;
+  height: 100px;
+  border-radius: 0px 0px 15px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook-icon, .instagram-icon, .github-icon {
+  font-size: 3rem;
+  color: #918E9B;
+  margin: 20px;
+}
+
+.facebook-icon:hover, .instagram-icon:hover, .github-icon:hover {
+  color: #DCDCDC;
+}
 
 /* Footer ends here */

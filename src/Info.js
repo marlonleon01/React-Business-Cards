@@ -1,7 +1,7 @@
 import Maya from "./imgs/Maya photo.jpg"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
-import {falink} from "@fortawesome/free-solid-svg-icons"
+import {faLinkedin} from "@fortawesome/free-brands-svg-icons"
 
 export function Info() {
     return (
@@ -17,7 +17,7 @@ export function Info() {
                 <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>Email
                 </button>
                 <button className="linkedin-btn">
-                    LinkedIn
+                <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>LinkedIn
                 </button>
             </div>
         </div>

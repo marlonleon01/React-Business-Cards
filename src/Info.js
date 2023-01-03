@@ -12,12 +12,16 @@ export function Info() {
                 <h1 className="name">Marlon Leon</h1>
                 <h2 className="occupation">Frontend Developer</h2>
                 {/* Add real website link here when you create it */}
-                <h3 className="website-link">Fakewebsitelink.com</h3>
+                <h3 className="website-link-text">
+                    <a className="website-link" href="" target="_blank" rel="noopener noreferrer">
+                        Fakewebsitelink.com
+                    </a>
+                </h3>
                 <button className="email-btn">
-                <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>Email
+                <FontAwesomeIcon icon={faEnvelope} className="email-icon"></FontAwesomeIcon>Email
                 </button>
                 <button className="linkedin-btn">
-                <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>LinkedIn
+                <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon"></FontAwesomeIcon>LinkedIn
                 </button>
             </div>
         </div>

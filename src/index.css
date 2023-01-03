@@ -20,41 +20,45 @@ body {
 
 .all-content {
   text-align: center;
+  margin: auto;
 }
 
 /* Info.js starts here */
 
 .professional-img {
-  width: 300px;
-  padding-top: 30px;
+  width: 400px;
+  height: 400px;
+  border-radius: 15px 15px 0px 0px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.info {
+  background-color: #1A1B21;
+  width: 400px;
+  margin: auto;
 }
 
 .name {
-
+  color: #FFFFFF;
+  margin-top: 0;
 }
 
 .occupation {
-
+  color: #F3BF99;
 }
 
 .website-link {
-
+  color: #F5F5F5;
 }
 
-.email-btn {
-
-}
-
-.email-icon {
-
-}
-
-.linkedln-btn {
-
-}
-
-.linkedln-icon {
-
+.email-btn, .linkedin-btn {
+  font-size: 1.2rem;
+  width: 150px;
+  margin: 12px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 /* Info.js ends here */

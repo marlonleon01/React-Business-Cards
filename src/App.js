@@ -5,7 +5,7 @@ import { Footer } from "./Footer";
 
 export function App() {
     return(
-        <div>
+        <div className="all-content">
             <Info />
             <About />
             <Interests />

@@ -3,6 +3,7 @@ html {
   padding: 0;
   box-sizing: border-box;
   overflow: hidden;
+  height: 100%;
 }
 
 *, *:before, *:after {
@@ -13,4 +14,47 @@ body {
   font-family: 'EB Garamond', serif;
   margin: 0;
   padding: 0;
+  height: 100%;
+  background-color: #23252C;
 }
+
+.all-content {
+  text-align: center;
+}
+
+/* Info.js starts here */
+
+.professional-img {
+  width: 300px;
+  padding-top: 30px;
+}
+
+.name {
+
+}
+
+.occupation {
+
+}
+
+.website-link {
+
+}
+
+.email-btn {
+
+}
+
+.email-icon {
+
+}
+
+.linkedln-btn {
+
+}
+
+.linkedln-icon {
+
+}
+
+/* Info.js ends here */

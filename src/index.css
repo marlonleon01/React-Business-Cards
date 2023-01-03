@@ -42,15 +42,32 @@ body {
 
 .name {
   color: #FFFFFF;
-  margin-top: 0;
+  margin: 0;
+  padding: 20px 0px 0px 0px;
+  font-size: 2.6rem;
 }
 
 .occupation {
   color: #F3BF99;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.website-link-text {
+  margin: 0;
+  padding: 10px 0px;
 }
 
 .website-link {
   color: #F5F5F5;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.website-link:hover {
+  color: #5093E2;
 }
 
 .email-btn, .linkedin-btn {
@@ -61,4 +78,30 @@ body {
   border-radius: 10px;
 }
 
+.email-btn {
+  color: #374151;
+}
+
+.linkedin-btn {
+  background-color: #5093E2;
+  color: #FFFFFF;
+}
+
+.email-btn:hover {
+  color: #FFFFFF;
+  background-color: #374151;
+}
+
+.linkedin-btn:hover {
+  color: #5093E2;
+  background-color: #FAF9F6;
+}
+
+.email-icon {
+  padding-right: 12px;
+}
+
+.linkedin-icon {
+  padding-right: 12px;
+}
 /* Info.js ends here */

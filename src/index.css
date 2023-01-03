@@ -112,27 +112,41 @@ body {
   background-color: #1A1B21;
   width: 400px;
   margin: auto;
+  padding: 0px 40px 20px 10px;
 }
 
 .about-heading {
   margin: 0;
   color: #FFFFFF;
   text-align: left;
+  padding: 20px 0px 0px 30px;
+  font-size: 1.6rem;
 }
 
 .about-text {
   color: #DCDCDC;
   text-align: left;
+  padding: 5px 0px 15px 30px;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .interests-heading {
+  margin: 0;
   color: #FFFFFF;
   text-align: left;
+  padding: 10px 0px 0px 30px;
+  font-size: 1.6rem;
 }
 
 .interests-text {
   color: #DCDCDC;
   text-align: left;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 5px 0px 15px 30px;
+  margin: 0;
 }
 /* About.js ends here, Footer.js starts here */
 

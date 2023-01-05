@@ -2,8 +2,6 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
-  height: 100%;
 }
 
 *, *:before, *:after {
@@ -14,13 +12,11 @@ body {
   font-family: 'EB Garamond', serif;
   margin: 0;
   padding: 0;
-  height: 100%;
   background-color: #23252C;
 }
 
 .all-content {
   text-align: center;
-  margin: auto;
 }
 
 /* Info.js starts here */
@@ -155,6 +151,7 @@ body {
   background-color: #161619;
   width: 400px;
   margin: auto;
+  margin-bottom: 120px;
   height: 100px;
   border-radius: 0px 0px 15px 15px;
   display: flex;

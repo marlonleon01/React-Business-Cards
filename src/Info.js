@@ -1,4 +1,4 @@
-import Maya from "./imgs/Maya photo.jpg"
+import Marlon from "./imgs/Professional Photo.jpg"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons"
@@ -6,8 +6,8 @@ import {faLinkedin} from "@fortawesome/free-brands-svg-icons"
 export function Info() {
     return (
         <div>
-            {/* Add professsional picture */}
-            <img src={Maya} className="professional-img"></img>
+            {/* Add new professsional picture */}
+            <img src={Marlon} className="professional-img"></img>
             <div className="info">
                 <h1 className="name">Marlon Leon</h1>
                 <h2 className="occupation">Frontend Developer</h2>

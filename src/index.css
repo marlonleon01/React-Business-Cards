@@ -13,6 +13,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: #23252C;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .all-content {

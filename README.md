@@ -3,6 +3,7 @@
 ## Description
 -I created this site as a way to practice building static sites with React.  
 -I also did it to further practice making the sites viewable and equally as nice on different screen sizes.  
+-It was the first solo project in the react basics scrimba course   
 -It help me learn the different syntax and how to make code composable.  
 -It was also a nice way of creating something I can use later for professional development.  
 
@@ -16,8 +17,7 @@
 -Open terminal  
 -Clone the repo with: $ git clone {url}  
 -cd into the folder  
--type: $ npm install  
--then follow from "Getting Started with Create React App"  
+-type: $ npm install    
 
 ## Getting Started with Create React App
 
